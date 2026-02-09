@@ -1,0 +1,4 @@
+<audio id="bg-music" controls autoplay loop>
+  <source src="PASTE_YOUR_MP3_LINK_HERE" type="audio/mpeg">
+  Your browser does not support audio.
+</audio>
