@@ -13,13 +13,6 @@ const noButton = document.querySelector(".no-button");
 const yesButton = document.querySelector(".yes-button");
 const music = document.getElementById("bg-music");
 
-// Play music on first click (browser rule)
-document.addEventListener("click", () => {
-  if (music.paused) {
-    music.volume = 0.4;
-    music.play();
-  }
-});
 
 function handleNoClick() {
   noButton.textContent = messages[messageIndex];
